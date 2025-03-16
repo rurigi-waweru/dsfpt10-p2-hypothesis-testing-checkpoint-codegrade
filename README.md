@@ -65,7 +65,8 @@ The probability of making a Type II error is denoted by $ 𝛽 $.
 
 A drug actually works, but the test concludes it does not.
 A court lets a guilty person go free.
-Key Trade-Off:
-Reducing Type I errors (by lowering 
-$ α $) increases the risk of Type II errors, and vice versa.
-Choosing the right balance depends on the situation—e.g., in medical trials, avoiding Type I errors is critical.
+
+
+`Key Trade-Off:`
+
+Reducing Type I errors (by lowering $ α $) increases the risk of Type II errors, and vice versa. Choosing the right balance depends on the situation—e.g., in medical trials, avoiding Type I errors is critical.
