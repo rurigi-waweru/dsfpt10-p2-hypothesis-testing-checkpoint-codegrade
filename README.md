@@ -54,11 +54,11 @@ A court convicts an innocent person.
 
 ### 2. Type II Error (False Negative)
 
-> Occurs when we fail to reject the null hypothesis ($ H_0 $) even though it is actually false.
+Occurs when we fail to reject the null hypothesis ($ H_0 $) even though it is actually false.
 
-> This means we miss detecting a real effect or difference.
+This means we miss detecting a real effect or difference.
 
-> The probability of making a Type II error is denoted by $ 𝛽 $.
+The probability of making a Type II error is denoted by $ 𝛽 $.
 
 
 🔹 Example:
