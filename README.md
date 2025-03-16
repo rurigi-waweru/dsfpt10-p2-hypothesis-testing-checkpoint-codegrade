@@ -29,6 +29,7 @@ $ H_a $: The new drug lowers blood pressure.
 
 $ H_0 $: The average test scores of two student groups are equal.
 
+
 $ H_a $: The average test scores of the two groups are different.
 
 The alternative hypothesis is tested using statistical methods, and if strong evidence supports it, we reject the null hypothesis in favor of the alternative.
