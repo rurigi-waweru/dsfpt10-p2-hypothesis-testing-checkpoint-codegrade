@@ -22,6 +22,7 @@ The alternative hypothesis ($ H_a $ or $ H_1 $)  is the statement that contradic
 > Drug effectiveness test:
 
 $ H_0 $: The new drug has no effect on blood pressure.
+
 $ H_a $: The new drug lowers blood pressure.
 
 > `Exam score comparison:`
