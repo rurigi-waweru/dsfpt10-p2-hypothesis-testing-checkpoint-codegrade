@@ -69,9 +69,12 @@ alternative_hypothesis = "E"
 q1_options = ["A", "B", "C", "D", "E", "F"]
 ```
 
+```python
 assert null_hypothesis in q1_options
 
 assert alternative_hypothesis in q1_options
+```
+
 ## 2. Identify Type I and Type II Errors
 
 Below we provide four possible scenarios, labeled "A", "B", "C", and "D". In two scenarios, an error has occurred, either Type I or Type II. In the other two scenarios, no error occurred.
@@ -85,25 +88,35 @@ Below we provide four possible scenarios, labeled "A", "B", "C", and "D". In two
 **D**: We conclude with our statistical test that **we don't have enough evidence to say that the sample salamanders are statistically smaller** than the known species salamanders, and in fact if they had run genetic testing it would have demonstrated that **they are not a different species**.
 
 In the cell below, assign `type_1_error` and `type_2_error` to the appropriate string values.
+
+```python
 # CodeGrade step2
 # Replace None with appropriate code
 type_1_error = "B"
 type_2_error = "C"
 # Both values should be strings from "A" to "D"
 q2_options = ["A", "B", "C", "D"]
+```
 
+```python
 assert type_1_error in q2_options
 
 assert type_2_error in q2_options
+```
+
 ## 3. Calculate a z-score Test Statistic
 
 In this case, we have access to the population standard deviation, so we will use this formula for the z-score:
 
+```python
 $$ z = \frac{\bar{x} - \mu}{\sigma / \sqrt{n}} $$
+```
 
 Where $\bar{x}$ is the mean length of the salamander sample, $\mu$ is the mean length of the known species (population), $\sigma$ is the standard deviation of the known species, and $n$ is the number in the sample.
 
 Calculate $z$ below.
+
+```python
 # Run this cell without changes
 
 import scipy.stats as stats
@@ -129,10 +142,15 @@ alpha = 0.2
 # Replace None with appropriate code
 z = (x_bar - mu) / (sigma / math.sqrt(n))
 z
+```
+
+```python
 # z should be a negative floating point value
 # (negative since the sample mean is smaller than the known species mean)
 assert isinstance(z, Number)
 assert z < 0
+```
+
 ## 4. Determine Whether We Can Reject the Null Hypothesis
 
 Remember that our confidence level is 0.8 ($\alpha = 0.2$). Can we reject the null hypothesis at this confidence level?
@@ -140,6 +158,8 @@ Remember that our confidence level is 0.8 ($\alpha = 0.2$). Can we reject the nu
 Hint: Use the answer from the previous question along with the empirical rule, a Python function, or [this z-table](https://www.math.arizona.edu/~rsims/ma464/standardnormaltable.pdf).
 
 In the cell below, perform any calculations you need, then assign `reject_null_hypothesis` to `True` or `False`.
+
+```python
 # CodeGrade step4
 # Perform calculations
 
@@ -147,8 +167,12 @@ In the cell below, perform any calculations you need, then assign `reject_null_h
 reject_null_hypothesis = True
 
 reject_null_hypothesis
+```
+
+```python
 # This value should be True or False
 assert reject_null_hypothesis == True or reject_null_hypothesis == False
+```
 
 ### -------------------------------------------------------------------------------------------------------
 ### =======================================================================================================
