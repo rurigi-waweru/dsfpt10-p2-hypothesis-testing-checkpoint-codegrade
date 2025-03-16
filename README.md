@@ -60,14 +60,14 @@ By default we are assuming that the sample's mean length is the same or greater 
 
 In the cell below, assign `null_hypothesis` and `alternative_hypothesis` to the appropriate string values.
 
-``python
+```python
 # CodeGrade step1
 # Replace None with appropriate code
 null_hypothesis = "D"
 alternative_hypothesis = "E"
 # Both values should be strings from "A" to "F"
 q1_options = ["A", "B", "C", "D", "E", "F"]
-``
+```
 
 assert null_hypothesis in q1_options
 
