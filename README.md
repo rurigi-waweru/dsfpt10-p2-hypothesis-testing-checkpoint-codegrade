@@ -178,7 +178,7 @@ assert reject_null_hypothesis == True or reject_null_hypothesis == False
 ### =======================
 ### -----------------------------------------
 
-# SUMMARY
+# Study-SUMMARY
 
 ## Null Hypothesis
 
