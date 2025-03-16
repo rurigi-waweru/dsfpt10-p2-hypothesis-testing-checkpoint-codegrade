@@ -18,8 +18,8 @@ The null hypothesis is either rejected or not rejected based on statistical evid
 
 The alternative hypothesis ($ H_a $ or $ H_1 $)  is the statement that contradicts the null hypothesis and  represents what the researcher wants to prove. It suggests there is an effect, a difference, or a relationship between variables.
 
-> `Examples:`
-Drug effectiveness test:
+` Examples:`
+> Drug effectiveness test:
 
 $ H_0 $: The new drug has no effect on blood pressure.
 $ H_a $: The new drug lowers blood pressure.
@@ -58,7 +58,7 @@ A court convicts an innocent person.
 > The probability of making a Type II error is denoted by $ 𝛽 $.
 
 
-####🔹 Example:
+🔹 Example:
 
 A drug actually works, but the test concludes it does not.
 A court lets a guilty person go free.
