@@ -28,6 +28,7 @@ $ H_a $: The new drug lowers blood pressure.
 > `Exam score comparison:`
 
 $ H_0 $: The average test scores of two student groups are equal.
+
 $ H_a $: The average test scores of the two groups are different.
 
 The alternative hypothesis is tested using statistical methods, and if strong evidence supports it, we reject the null hypothesis in favor of the alternative.
@@ -38,11 +39,11 @@ When performing hypothesis testing, two types of errors can occur:
 
 ### 1. Type I Error (False Positive)
 
-> Occurs when we reject the null hypothesis ($ H_0 $) even though it is actually true.
+Occurs when we reject the null hypothesis ($ H_0 $) even though it is actually true.
 
-> This means we detect an effect or difference that does not actually exist.
+This means we detect an effect or difference that does not actually exist.
 
-> The probability of making a Type I error is denoted by $ 𝛼 $ (significance level).
+The probability of making a Type I error is denoted by $ 𝛼 $ (significance level).
 
 #### 🔹 Example:
 
