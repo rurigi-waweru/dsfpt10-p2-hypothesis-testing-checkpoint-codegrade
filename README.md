@@ -108,9 +108,9 @@ assert type_2_error in q2_options
 
 In this case, we have access to the population standard deviation, so we will use this formula for the z-score:
 
-```python
+
 $$ z = \frac{\bar{x} - \mu}{\sigma / \sqrt{n}} $$
-```
+
 
 Where $\bar{x}$ is the mean length of the salamander sample, $\mu$ is the mean length of the known species (population), $\sigma$ is the standard deviation of the known species, and $n$ is the number in the sample.
 
